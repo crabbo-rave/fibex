@@ -20,8 +20,4 @@ defmodule Fib do
     (Float.pow(phi, n) - Float.pow(phi, -n)) / :math.sqrt(5)
     |> round()
   end
-
-  def fib(n) do
-    round((Float.pow(1.618, n) - Float.pow(0.618, n)) / :math.sqrt(5))
-  end
 end
